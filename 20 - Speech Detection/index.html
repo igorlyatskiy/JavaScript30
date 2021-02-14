@@ -31,9 +31,6 @@
         p = document.createElement('p');
         words.appendChild(p);
       }
-      if (transcript.includes("Лиза") || transcript.includes("Привет")) {
-        alert("Я знал, что ты это скажешь");
-      }
       console.log(transcript)
     })
     recognition.addEventListener('end', recognition.start);
